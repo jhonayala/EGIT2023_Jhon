@@ -24,5 +24,8 @@ public class Persona {
     edad=getEdad()+1;
     System.out.println("Edad: " +edad);
   }
+  public void datosPersona() {
+    System.out.println("Nombre: "+nombre+"\nApellido: "+apellido+"\nEdad: "+edad);
+  }
 
 }
